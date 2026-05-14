@@ -1,0 +1,275 @@
+{
+  "inventory": [
+    {
+      "id": 1,
+      "name": "Premium Gasoline",
+      "type": "GASOLINE_90",
+      "description": "Premium gasoline fuel",
+      "pricePerLiter": 23,
+      "unit": "GALLONS"
+    },
+    {
+      "id": 2,
+      "name": "Regular Gasoline",
+      "type": "GASOLINE_84",
+      "description": "Regular gasoline fuel",
+      "pricePerLiter": 18,
+      "unit": "GALLONS"
+    },
+    {
+      "id": 3,
+      "name": "Super Gasoline",
+      "type": "GASOLINE_95",
+      "description": "Super gasoline fuel",
+      "pricePerLiter": 26,
+      "unit": "GALLONS"
+    },
+    {
+      "id": 4,
+      "name": "Eco Diesel",
+      "type": "DIESEL_B5",
+      "description": "Eco diesel fuel",
+      "pricePerLiter": 21,
+      "unit": "GALLONS"
+    },
+    {
+      "id": 5,
+      "name": "Premium Plus",
+      "type": "GASOLINE_97",
+      "description": "Premium plus gasoline",
+      "pricePerLiter": 29,
+      "unit": "GALLONS"
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "clientId": 101,
+      "providerId": 201,
+      "fuelType": "DIESEL_B5",
+      "quantity": 5000,
+      "unit": "GALLONS",
+      "deliveryAddress": "Av. Arequipa 123, Lima",
+      "deliveryDate": "2026-05-15",
+      "status": "APPROVED",
+      "createdAt": "2026-05-10T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "clientId": 102,
+      "providerId": 201,
+      "fuelType": "GASOLINE_95",
+      "quantity": 3200,
+      "unit": "GALLONS",
+      "deliveryAddress": "Av. Javier Prado 450, Lima",
+      "deliveryDate": "2026-05-18",
+      "status": "APPROVED",
+      "createdAt": "2026-05-11T14:00:00Z"
+    },
+    {
+      "id": 3,
+      "clientId": 103,
+      "providerId": 201,
+      "fuelType": "GASOLINE_84",
+      "quantity": 1500,
+      "unit": "GALLONS",
+      "deliveryAddress": "Av. Universitaria 890, Lima",
+      "deliveryDate": "2026-05-20",
+      "status": "IN_TRANSIT",
+      "createdAt": "2026-05-12T08:15:00Z"
+    },
+    {
+      "id": 4,
+      "clientId": 104,
+      "providerId": 201,
+      "fuelType": "GASOLINE_97",
+      "quantity": 2000,
+      "unit": "GALLONS",
+      "deliveryAddress": "Av. Benavides 234, Lima",
+      "deliveryDate": "2026-05-22",
+      "status": "DELIVERED",
+      "createdAt": "2026-05-09T16:00:00Z"
+    },
+    {
+      "id": 5,
+      "clientId": 101,
+      "providerId": 201,
+      "fuelType": "GASOLINE_95",
+      "quantity": 3,
+      "unit": "LITERS",
+      "deliveryAddress": "kjugyjgkuih",
+      "deliveryDate": "0004-03-31",
+      "status": "PENDING",
+      "createdAt": "2026-05-13T14:42:43.321Z"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": 1,
+      "plate": "ABC-123",
+      "brand": "Volvo",
+      "model": "FH16 500",
+      "capacity": 15000,
+      "unit": "LITERS",
+      "status": "AVAILABLE"
+    },
+    {
+      "id": 2,
+      "plate": "DEF-456",
+      "brand": "Mercedes-Benz",
+      "model": "Actros 1845",
+      "capacity": 12000,
+      "unit": "LITERS",
+      "status": "IN_ROUTE"
+    },
+    {
+      "id": 3,
+      "plate": "GHI-789",
+      "brand": "MAN",
+      "model": "TGX 18.500",
+      "capacity": 18000,
+      "unit": "LITERS",
+      "status": "AVAILABLE"
+    },
+    {
+      "id": 4,
+      "plate": "JKL-012",
+      "brand": "Scania",
+      "model": "R 580 LA",
+      "capacity": 20000,
+      "unit": "LITERS",
+      "status": "MAINTENANCE"
+    },
+    {
+      "id": 5,
+      "plate": "VXU-345",
+      "brand": "Mercedes",
+      "model": "FH16 500",
+      "capacity": 500,
+      "unit": "LITERS",
+      "status": "AVAILABLE"
+    }
+  ],
+  "drivers": [
+    {
+      "id": 1,
+      "name": "Carlos Ramírez",
+      "licenseNumber": "Q12345678",
+      "phone": "+51987654321",
+      "email": "carlos.ramirez@fulltank.com",
+      "status": "AVAILABLE"
+    },
+    {
+      "id": 2,
+      "name": "María García",
+      "licenseNumber": "Q87654321",
+      "phone": "+51976543210",
+      "email": "maria.garcia@fulltank.com",
+      "status": "ASSIGNED"
+    },
+    {
+      "id": 3,
+      "name": "Juan López",
+      "licenseNumber": "Q11223344",
+      "phone": "+51998765432",
+      "email": "juan.lopez@fulltank.com",
+      "status": "AVAILABLE"
+    },
+    {
+      "id": 4,
+      "name": "Ana Torres",
+      "licenseNumber": "Q55443322",
+      "phone": "+51912345678",
+      "email": "ana.torres@fulltank.com",
+      "status": "AVAILABLE"
+    }
+  ],
+  "clients": [
+    {
+      "id": 101,
+      "companyName": "Transportes Andinos SAC",
+      "sector": "TRANSPORT",
+      "totalVolume": 18450.5,
+      "totalCost": 428500,
+      "lastActive": "2026-05-12T10:20:00Z",
+      "status": "ACTIVE"
+    },
+    {
+      "id": 102,
+      "companyName": "Minera Santa Lucia",
+      "sector": "MINING",
+      "totalVolume": 32600,
+      "totalCost": 782400,
+      "lastActive": "2026-05-11T15:45:00Z",
+      "status": "ACTIVE"
+    },
+    {
+      "id": 103,
+      "companyName": "Constructora Lima Norte",
+      "sector": "CONSTRUCTION",
+      "totalVolume": 12750.25,
+      "totalCost": 291100,
+      "lastActive": "2026-05-09T09:10:00Z",
+      "status": "PENDING"
+    },
+    {
+      "id": 104,
+      "companyName": "Logistica Pacifico",
+      "sector": "LOGISTICS",
+      "totalVolume": 21980.75,
+      "totalCost": 517900,
+      "lastActive": "2026-05-10T18:30:00Z",
+      "status": "ACTIVE"
+    },
+    {
+      "id": 105,
+      "companyName": "Terminales Maritimos Callao",
+      "sector": "MARITIME",
+      "totalVolume": 15420,
+      "totalCost": 361250,
+      "lastActive": "2026-05-08T13:05:00Z",
+      "status": "REVIEW"
+    },
+    {
+      "id": 106,
+      "companyName": "Distribuidora Sur Express",
+      "sector": "TRANSPORT",
+      "totalVolume": 9350,
+      "totalCost": 210800,
+      "lastActive": "2026-05-07T11:00:00Z",
+      "status": "INACTIVE"
+    }
+  ],
+  "monthlySales": [
+    {
+      "id": 1,
+      "month": "Jan",
+      "revenue": 185000
+    },
+    {
+      "id": 2,
+      "month": "Feb",
+      "revenue": 224500
+    },
+    {
+      "id": 3,
+      "month": "Mar",
+      "revenue": 248750
+    },
+    {
+      "id": 4,
+      "month": "Apr",
+      "revenue": 276300
+    },
+    {
+      "id": 5,
+      "month": "May",
+      "revenue": 315900
+    },
+    {
+      "id": 6,
+      "month": "Jun",
+      "revenue": 342100
+    }
+  ]
+}
